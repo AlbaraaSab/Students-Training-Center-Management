@@ -1,0 +1,17 @@
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\bin\Debug\VP - Project.exe.config
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\bin\Debug\VP - Project.exe
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\bin\Debug\VP - Project.pdb
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\bin\Debug\MetroSet UI.dll
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP - Project.csproj.AssemblyReference.cache
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP___Project.Properties.Resources.resources
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP - Project.csproj.GenerateResource.cache
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP - Project.csproj.CoreCompileInputs.cache
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP - Project.csproj.CopyComplete
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP - Project.exe
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP - Project.pdb
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP___Project.ManagerForm.resources
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP___Project.Views.manager_views.CourseDetailsForm.resources
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP___Project.Views.employee_views.EmployeeForm.resources
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP___Project.LoginForm.resources
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP___Project.Views.teacher_views.SessionForm.resources
+D:\SVU Files\9. S22\VP\project\VP - Project\VP - Project\obj\Debug\VP___Project.Views.teacher_views.TeacherForm.resources

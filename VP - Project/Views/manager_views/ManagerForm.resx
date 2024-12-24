@@ -1,0 +1,1332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CourseGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CourseGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CourseGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CourseGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CourseGridView.Name" xml:space="preserve">
+    <value>CourseGridView</value>
+  </data>
+  <data name="&gt;&gt;CourseGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CourseGridView.Parent" xml:space="preserve">
+    <value>allCoursesTabPage</value>
+  </data>
+  <data name="&gt;&gt;CourseGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="allCoursesTabPage.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="allCoursesTabPage.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="allCoursesTabPage.ImageKey" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="allCoursesTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 42</value>
+  </data>
+  <data name="allCoursesTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="allCoursesTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="allCoursesTabPage.Text" xml:space="preserve">
+    <value>All Courses</value>
+  </data>
+  <data name="allCoursesTabPage.ToolTipText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;allCoursesTabPage.Name" xml:space="preserve">
+    <value>allCoursesTabPage</value>
+  </data>
+  <data name="&gt;&gt;allCoursesTabPage.Type" xml:space="preserve">
+    <value>MetroSet_UI.Child.MetroSetSetTabPage, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;allCoursesTabPage.Parent" xml:space="preserve">
+    <value>metroSetTabControl1</value>
+  </data>
+  <data name="&gt;&gt;allCoursesTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="metroSetLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="metroSetLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="metroSetLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 83</value>
+  </data>
+  <data name="metroSetLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="metroSetLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="metroSetLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="metroSetLabel1.Text" xml:space="preserve">
+    <value>Course Name:</value>
+  </data>
+  <data name="metroSetLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel1.Name" xml:space="preserve">
+    <value>metroSetLabel1</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel1.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetLabel, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="courseLectureCountTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="courseLectureCountTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="courseLectureCountTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 152</value>
+  </data>
+  <data name="courseLectureCountTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="courseLectureCountTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 26</value>
+  </data>
+  <data name="courseLectureCountTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;courseLectureCountTextBox.Name" xml:space="preserve">
+    <value>courseLectureCountTextBox</value>
+  </data>
+  <data name="&gt;&gt;courseLectureCountTextBox.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetTextBox, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;courseLectureCountTextBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;courseLectureCountTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="courseNameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="courseNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="courseNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 79</value>
+  </data>
+  <data name="courseNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="courseNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 26</value>
+  </data>
+  <data name="courseNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;courseNameTextBox.Name" xml:space="preserve">
+    <value>courseNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;courseNameTextBox.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetTextBox, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;courseNameTextBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;courseNameTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroSetLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="metroSetLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="metroSetLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 156</value>
+  </data>
+  <data name="metroSetLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="metroSetLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 26</value>
+  </data>
+  <data name="metroSetLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroSetLabel2.Text" xml:space="preserve">
+    <value>Course Lecture Count:</value>
+  </data>
+  <data name="metroSetLabel2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel2.Name" xml:space="preserve">
+    <value>metroSetLabel2</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel2.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetLabel, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="submitButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="submitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 257</value>
+  </data>
+  <data name="submitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="submitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 42</value>
+  </data>
+  <data name="submitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="submitButton.Text" xml:space="preserve">
+    <value>Add Course</value>
+  </data>
+  <data name="&gt;&gt;submitButton.Name" xml:space="preserve">
+    <value>submitButton</value>
+  </data>
+  <data name="&gt;&gt;submitButton.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetButton, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;submitButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;submitButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>addNewCourseTabPage</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="metroSetLabel1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="courseLectureCountTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="courseNameTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="metroSetLabel2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="submitButton" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,21.81589,Percent,78.18411,Absolute,167" /&gt;&lt;Rows Styles="Percent,59.89011,Percent,40.10989,Absolute,71,Absolute,190" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="addNewCourseTabPage.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="addNewCourseTabPage.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="addNewCourseTabPage.ImageKey" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="addNewCourseTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 42</value>
+  </data>
+  <data name="addNewCourseTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="addNewCourseTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="addNewCourseTabPage.Text" xml:space="preserve">
+    <value>Add New Course</value>
+  </data>
+  <data name="addNewCourseTabPage.ToolTipText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;addNewCourseTabPage.Name" xml:space="preserve">
+    <value>addNewCourseTabPage</value>
+  </data>
+  <data name="&gt;&gt;addNewCourseTabPage.Type" xml:space="preserve">
+    <value>MetroSet_UI.Child.MetroSetSetTabPage, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;addNewCourseTabPage.Parent" xml:space="preserve">
+    <value>metroSetTabControl1</value>
+  </data>
+  <data name="&gt;&gt;addNewCourseTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="courseComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="courseComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="courseComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 121</value>
+  </data>
+  <data name="courseComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 26</value>
+  </data>
+  <data name="courseComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;courseComboBox.Name" xml:space="preserve">
+    <value>courseComboBox</value>
+  </data>
+  <data name="&gt;&gt;courseComboBox.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetComboBox, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;courseComboBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;courseComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="metroSetLabel7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="metroSetLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="metroSetLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 95</value>
+  </data>
+  <data name="metroSetLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 23</value>
+  </data>
+  <data name="metroSetLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroSetLabel7.Text" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel7.Name" xml:space="preserve">
+    <value>metroSetLabel7</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel7.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetLabel, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel7.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="metroSetLabel8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="metroSetLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="metroSetLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 95</value>
+  </data>
+  <data name="metroSetLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="metroSetLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="metroSetLabel8.Text" xml:space="preserve">
+    <value>Teacher Name</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel8.Name" xml:space="preserve">
+    <value>metroSetLabel8</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel8.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetLabel, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel8.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="teacherComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="teacherComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="teacherComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 121</value>
+  </data>
+  <data name="teacherComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 26</value>
+  </data>
+  <data name="teacherComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;teacherComboBox.Name" xml:space="preserve">
+    <value>teacherComboBox</value>
+  </data>
+  <data name="&gt;&gt;teacherComboBox.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetComboBox, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;teacherComboBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;teacherComboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AssignButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="AssignButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 121</value>
+  </data>
+  <data name="AssignButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 26</value>
+  </data>
+  <data name="AssignButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="AssignButton.Text" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="&gt;&gt;AssignButton.Name" xml:space="preserve">
+    <value>AssignButton</value>
+  </data>
+  <data name="&gt;&gt;AssignButton.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetButton, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AssignButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;AssignButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>assignTeacherToCourseTabPage</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="courseComboBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="metroSetLabel7" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="metroSetLabel8" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="teacherComboBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="AssignButton" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50,Absolute,317" /&gt;&lt;Rows Styles="Percent,46.30225,Percent,53.69775,Absolute,188" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="assignTeacherToCourseTabPage.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="assignTeacherToCourseTabPage.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="assignTeacherToCourseTabPage.ImageKey" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="assignTeacherToCourseTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 42</value>
+  </data>
+  <data name="assignTeacherToCourseTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="assignTeacherToCourseTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="assignTeacherToCourseTabPage.Text" xml:space="preserve">
+    <value>Assign Teacher To Course</value>
+  </data>
+  <data name="assignTeacherToCourseTabPage.ToolTipText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;assignTeacherToCourseTabPage.Name" xml:space="preserve">
+    <value>assignTeacherToCourseTabPage</value>
+  </data>
+  <data name="&gt;&gt;assignTeacherToCourseTabPage.Type" xml:space="preserve">
+    <value>MetroSet_UI.Child.MetroSetSetTabPage, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;assignTeacherToCourseTabPage.Parent" xml:space="preserve">
+    <value>metroSetTabControl1</value>
+  </data>
+  <data name="&gt;&gt;assignTeacherToCourseTabPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroSetTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="metroSetTabControl1.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 38</value>
+  </data>
+  <data name="metroSetTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="metroSetTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>969, 490</value>
+  </data>
+  <data name="metroSetTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;metroSetTabControl1.Name" xml:space="preserve">
+    <value>metroSetTabControl1</value>
+  </data>
+  <data name="&gt;&gt;metroSetTabControl1.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetTabControl, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetTabControl1.Parent" xml:space="preserve">
+    <value>CoursesTabPage</value>
+  </data>
+  <data name="&gt;&gt;metroSetTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CoursesTabPage.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CoursesTabPage.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CoursesTabPage.ImageKey" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CoursesTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 42</value>
+  </data>
+  <data name="CoursesTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>969, 490</value>
+  </data>
+  <data name="CoursesTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CoursesTabPage.Text" xml:space="preserve">
+    <value>Courses Management</value>
+  </data>
+  <data name="CoursesTabPage.ToolTipText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;CoursesTabPage.Name" xml:space="preserve">
+    <value>CoursesTabPage</value>
+  </data>
+  <data name="&gt;&gt;CoursesTabPage.Type" xml:space="preserve">
+    <value>MetroSet_UI.Child.MetroSetSetTabPage, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CoursesTabPage.Parent" xml:space="preserve">
+    <value>CourseTabControl</value>
+  </data>
+  <data name="&gt;&gt;CoursesTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="allStaffTabPage.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StaffGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="StaffGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="StaffGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="StaffGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;StaffGridView.Name" xml:space="preserve">
+    <value>StaffGridView</value>
+  </data>
+  <data name="&gt;&gt;StaffGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaffGridView.Parent" xml:space="preserve">
+    <value>allStaffTabPage</value>
+  </data>
+  <data name="&gt;&gt;StaffGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="allStaffTabPage.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="allStaffTabPage.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="allStaffTabPage.ImageKey" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="allStaffTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 42</value>
+  </data>
+  <data name="allStaffTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="allStaffTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="allStaffTabPage.Text" xml:space="preserve">
+    <value>All Staff</value>
+  </data>
+  <data name="allStaffTabPage.ToolTipText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;allStaffTabPage.Name" xml:space="preserve">
+    <value>allStaffTabPage</value>
+  </data>
+  <data name="&gt;&gt;allStaffTabPage.Type" xml:space="preserve">
+    <value>MetroSet_UI.Child.MetroSetSetTabPage, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;allStaffTabPage.Parent" xml:space="preserve">
+    <value>metroSetTabControl2</value>
+  </data>
+  <data name="&gt;&gt;allStaffTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="allTeachersTabPage.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TeachersGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TeachersGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TeachersGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="TeachersGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TeachersGridView.Name" xml:space="preserve">
+    <value>TeachersGridView</value>
+  </data>
+  <data name="&gt;&gt;TeachersGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TeachersGridView.Parent" xml:space="preserve">
+    <value>allTeachersTabPage</value>
+  </data>
+  <data name="&gt;&gt;TeachersGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="allTeachersTabPage.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="allTeachersTabPage.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="allTeachersTabPage.ImageKey" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="allTeachersTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 42</value>
+  </data>
+  <data name="allTeachersTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="allTeachersTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="allTeachersTabPage.Text" xml:space="preserve">
+    <value>Teachers</value>
+  </data>
+  <data name="allTeachersTabPage.ToolTipText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;allTeachersTabPage.Name" xml:space="preserve">
+    <value>allTeachersTabPage</value>
+  </data>
+  <data name="&gt;&gt;allTeachersTabPage.Type" xml:space="preserve">
+    <value>MetroSet_UI.Child.MetroSetSetTabPage, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;allTeachersTabPage.Parent" xml:space="preserve">
+    <value>metroSetTabControl2</value>
+  </data>
+  <data name="&gt;&gt;allTeachersTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="metroSetLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="metroSetLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="metroSetLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 74</value>
+  </data>
+  <data name="metroSetLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="metroSetLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 26</value>
+  </data>
+  <data name="metroSetLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="metroSetLabel3.Text" xml:space="preserve">
+    <value>Staff Name:</value>
+  </data>
+  <data name="metroSetLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel3.Name" xml:space="preserve">
+    <value>metroSetLabel3</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel3.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetLabel, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="metroSetLabel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="metroSetLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="metroSetLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 139</value>
+  </data>
+  <data name="metroSetLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="metroSetLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 26</value>
+  </data>
+  <data name="metroSetLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="metroSetLabel4.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="metroSetLabel4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel4.Name" xml:space="preserve">
+    <value>metroSetLabel4</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel4.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetLabel, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel4.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="positionComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="positionComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="positionComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="positionComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 309</value>
+  </data>
+  <data name="positionComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="positionComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 26</value>
+  </data>
+  <data name="positionComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;positionComboBox.Name" xml:space="preserve">
+    <value>positionComboBox</value>
+  </data>
+  <data name="&gt;&gt;positionComboBox.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetComboBox, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;positionComboBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;positionComboBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroSetLabel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="metroSetLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="metroSetLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 207</value>
+  </data>
+  <data name="metroSetLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="metroSetLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 26</value>
+  </data>
+  <data name="metroSetLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="metroSetLabel6.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="metroSetLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel6.Name" xml:space="preserve">
+    <value>metroSetLabel6</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel6.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetLabel, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel6.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="passwordTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="passwordTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 203</value>
+  </data>
+  <data name="passwordTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 26</value>
+  </data>
+  <data name="passwordTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Name" xml:space="preserve">
+    <value>passwordTextBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetTextBox, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metroSetLabel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="metroSetLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="metroSetLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 314</value>
+  </data>
+  <data name="metroSetLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="metroSetLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="metroSetLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroSetLabel5.Text" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="metroSetLabel5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel5.Name" xml:space="preserve">
+    <value>metroSetLabel5</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel5.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetLabel, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel5.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;metroSetLabel5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="userNameTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="userNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="userNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 135</value>
+  </data>
+  <data name="userNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="userNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 26</value>
+  </data>
+  <data name="userNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;userNameTextBox.Name" xml:space="preserve">
+    <value>userNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;userNameTextBox.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetTextBox, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;userNameTextBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;userNameTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="staffNameTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="staffNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="staffNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 70</value>
+  </data>
+  <data name="staffNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="staffNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 26</value>
+  </data>
+  <data name="staffNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;staffNameTextBox.Name" xml:space="preserve">
+    <value>staffNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;staffNameTextBox.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetTextBox, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;staffNameTextBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;staffNameTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AddStaffButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="AddStaffButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="AddStaffButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 394</value>
+  </data>
+  <data name="AddStaffButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AddStaffButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 46</value>
+  </data>
+  <data name="AddStaffButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="AddStaffButton.Text" xml:space="preserve">
+    <value>Add Staff</value>
+  </data>
+  <data name="&gt;&gt;AddStaffButton.Name" xml:space="preserve">
+    <value>AddStaffButton</value>
+  </data>
+  <data name="&gt;&gt;AddStaffButton.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetButton, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AddStaffButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;AddStaffButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>addNewStaffTabPage</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="metroSetLabel3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="metroSetLabel4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="positionComboBox" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="metroSetLabel6" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="passwordTextBox" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="metroSetLabel5" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="userNameTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="staffNameTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="AddStaffButton" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34.77564,Percent,65.22436,Absolute,424" /&gt;&lt;Rows Styles="Percent,60.60606,Percent,39.39394,Absolute,68,Absolute,106,Absolute,104" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="addNewStaffTabPage.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="addNewStaffTabPage.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="addNewStaffTabPage.ImageKey" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="addNewStaffTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 42</value>
+  </data>
+  <data name="addNewStaffTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 444</value>
+  </data>
+  <data name="addNewStaffTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="addNewStaffTabPage.Text" xml:space="preserve">
+    <value>Add New Staff</value>
+  </data>
+  <data name="addNewStaffTabPage.ToolTipText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;addNewStaffTabPage.Name" xml:space="preserve">
+    <value>addNewStaffTabPage</value>
+  </data>
+  <data name="&gt;&gt;addNewStaffTabPage.Type" xml:space="preserve">
+    <value>MetroSet_UI.Child.MetroSetSetTabPage, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;addNewStaffTabPage.Parent" xml:space="preserve">
+    <value>metroSetTabControl2</value>
+  </data>
+  <data name="&gt;&gt;addNewStaffTabPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroSetTabControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="metroSetTabControl2.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 38</value>
+  </data>
+  <data name="metroSetTabControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="metroSetTabControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>969, 490</value>
+  </data>
+  <data name="metroSetTabControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;metroSetTabControl2.Name" xml:space="preserve">
+    <value>metroSetTabControl2</value>
+  </data>
+  <data name="&gt;&gt;metroSetTabControl2.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetTabControl, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetTabControl2.Parent" xml:space="preserve">
+    <value>StaffTabPage</value>
+  </data>
+  <data name="&gt;&gt;metroSetTabControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StaffTabPage.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="StaffTabPage.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="StaffTabPage.ImageKey" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="StaffTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 42</value>
+  </data>
+  <data name="StaffTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>969, 490</value>
+  </data>
+  <data name="StaffTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="StaffTabPage.Text" xml:space="preserve">
+    <value>Staff Management</value>
+  </data>
+  <data name="StaffTabPage.ToolTipText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;StaffTabPage.Name" xml:space="preserve">
+    <value>StaffTabPage</value>
+  </data>
+  <data name="&gt;&gt;StaffTabPage.Type" xml:space="preserve">
+    <value>MetroSet_UI.Child.MetroSetSetTabPage, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;StaffTabPage.Parent" xml:space="preserve">
+    <value>CourseTabControl</value>
+  </data>
+  <data name="&gt;&gt;StaffTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CourseTabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="CourseTabControl.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 38</value>
+  </data>
+  <data name="CourseTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 90</value>
+  </data>
+  <data name="CourseTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>977, 536</value>
+  </data>
+  <data name="CourseTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CourseTabControl.Name" xml:space="preserve">
+    <value>CourseTabControl</value>
+  </data>
+  <data name="&gt;&gt;CourseTabControl.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetTabControl, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CourseTabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CourseTabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="metroSetControlBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="metroSetControlBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>886, 11</value>
+  </data>
+  <data name="metroSetControlBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="metroSetControlBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroSetControlBox2.Text" xml:space="preserve">
+    <value>metroSetControlBox2</value>
+  </data>
+  <data name="&gt;&gt;metroSetControlBox2.Name" xml:space="preserve">
+    <value>metroSetControlBox2</value>
+  </data>
+  <data name="&gt;&gt;metroSetControlBox2.Type" xml:space="preserve">
+    <value>MetroSet_UI.Controls.MetroSetControlBox, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;metroSetControlBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroSetControlBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>148</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1001, 638</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 90, 12, 12</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MANAGER DASHBOARD</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ManagerForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroSet_UI.Forms.MetroSetForm, MetroSet UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
